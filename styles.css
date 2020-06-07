@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&family=Fjalla+One&family=Teko:wght@500&display=swap');
+.body-home{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;   
+    z-index: -1;
+  }
+h2{
+    text-align: center;
+    padding-bottom: 10%;
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(8, 85, 148);
+    
+}
+
+.container-form{
+    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 5%;
+    border: black solid 2px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 10px 0 rgba(18, 57, 199, 0.687);
+    transition: 0.3s;
+    text-align: center;
+}
+.container-form:hover{
+    background-color: rgba(255, 255, 255, 0.748);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,4); 
+   
+}
+
+.form-group input{
+    border: none;
+    outline: none;
+    background: none;
+    color: none;
+    border-bottom: solid 2px;
+    color: rgb(255, 217, 0);
+}
+.form-group span{
+    background: none;
+    border: none;
+}
+.form-group i{
+    padding-right: 2%;
+}
+.btn{
+    background-color: orange;
+    font-family:'Enriqueta', serif ;
+}
+.btn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,4);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+    -webkit-transition: 1.3s;
+    -moz-transition: 1.3s;
+    -o-transition: 1.3s;
+    transition: 1.3s;
+}
+.circle1{
+    border-radius: 50;
+    width: 35%;
+    height: 35%;
+    margin: 10%;
+}
+input, label{
+    font-family: 'Enriqueta', serif;
+    font-size: 15px;
+}
